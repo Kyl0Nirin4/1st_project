@@ -1,0 +1,118 @@
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-left: 9cm;
+    margin-bottom: 4px;
+
+    border-radius: 5px;
+    position: absolute;
+     z-index: 1;
+  
+  }
+  
+  ul {
+    background: white;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    color: gray;
+    background: white;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1px;
+   border: none;
+   box-shadow:0px 1px 2px rgb(119, 119, 119);
+  }
+    li a{
+      color: gray;
+    }
+
+  li:hover {
+    color: #cbf3f0;
+    background: #efd6ac;
+    cursor: pointer;
+
+  }
+  
+  ul li ul {
+    background: gray;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul, 
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+  marquee p {
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    position: relative;
+    letter-spacing: 5px;
+  
+}
+
+div h1{
+  color: white;
+}
+div p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+div .boxed{
+    width: 1000px;
+    padding: 50px;
+    margin: 30px;
+    background: rgba( 100, 100, 100, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+div h5{
+
+  color: #4abe4a;
+
+}
+.footer{
+  width: 1010px;
+  background-color: rgb(44, 44, 44);
+  padding: 50px;
+  margin: 30px;
+  border-radius: 12px;
+  margin-left: 130px;
+}
+footer p{
+  color: white;
+
+}

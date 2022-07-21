@@ -1,0 +1,1 @@
+<marquee behavior="" direction="LEFT"scrollamount="9" style=" background-color: #33cc33; height: 30px;"><p style="color: white;">AUXILIAIRE MARITIME DE MADAGASCAR "Vous satisfaire , c'est notre affaire"</p></marquee>
